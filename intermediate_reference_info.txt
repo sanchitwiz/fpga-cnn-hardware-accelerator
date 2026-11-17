@@ -1,0 +1,11 @@
+Dataset label: 3
+Python predicted class: 3
+Input scale: 0.016744005398487482
+Activation scales: {'pool1': 0.037638416440468135, 'pool2': 0.0895035435834269, 'fc1_relu': 0.22972281148114543}
+input: shape=(1, 3, 32, 32), min=-106, max=125
+conv1: shape=(1, 32, 30, 30), min=0, max=72
+pool1: shape=(1, 32, 15, 15), min=0, max=72
+conv2: shape=(1, 64, 13, 13), min=0, max=27
+pool2: shape=(1, 64, 6, 6), min=0, max=27
+fc1: shape=(1, 128), min=0, max=28
+fc2: shape=(1, 10), min=-4807, max=6664

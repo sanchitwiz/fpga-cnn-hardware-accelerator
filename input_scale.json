@@ -1,0 +1,7 @@
+{
+    "dtype": "int8",
+    "quantization": "symmetric",
+    "zero_point": 0,
+    "max_absolute_value": 2.12648868560791,
+    "scale": 0.016744005398487482
+}

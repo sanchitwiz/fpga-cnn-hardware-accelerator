@@ -1,0 +1,42 @@
+{
+    "conv1.weight": {
+        "scale": 0.002744405996054411,
+        "zero_point": 0,
+        "dtype": "int8",
+        "shape": [
+            32,
+            3,
+            3,
+            3
+        ]
+    },
+    "conv2.weight": {
+        "scale": 0.005561488680541515,
+        "zero_point": 0,
+        "dtype": "int8",
+        "shape": [
+            64,
+            32,
+            3,
+            3
+        ]
+    },
+    "fc1.weight": {
+        "scale": 0.0037414482794702053,
+        "zero_point": 0,
+        "dtype": "int8",
+        "shape": [
+            128,
+            2304
+        ]
+    },
+    "fc2.weight": {
+        "scale": 0.003157606115564704,
+        "zero_point": 0,
+        "dtype": "int8",
+        "shape": [
+            10,
+            128
+        ]
+    }
+}

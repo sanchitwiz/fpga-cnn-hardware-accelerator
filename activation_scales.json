@@ -1,0 +1,10 @@
+{
+    "activation_dtype": "int8",
+    "quantization": "symmetric",
+    "zero_point": 0,
+    "scales": {
+        "pool1": 0.037638416440468135,
+        "pool2": 0.0895035435834269,
+        "fc1_relu": 0.22972281148114543
+    }
+}

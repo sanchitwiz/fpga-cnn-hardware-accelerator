@@ -1,0 +1,26 @@
+{
+    "conv1": {
+        "accumulator_min": -93226,
+        "accumulator_max": 86411,
+        "bias_min": -8234,
+        "bias_max": 3366
+    },
+    "conv2": {
+        "accumulator_min": -64021,
+        "accumulator_max": 22802,
+        "bias_min": -880,
+        "bias_max": 1851
+    },
+    "fc1": {
+        "accumulator_min": -48792,
+        "accumulator_max": 39686,
+        "bias_min": -367,
+        "bias_max": 577
+    },
+    "fc2": {
+        "accumulator_min": -13045,
+        "accumulator_max": 13430,
+        "bias_min": -166,
+        "bias_max": 166
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "conv1": {
+        "input_scale": 0.016744005398487482,
+        "weight_scale": 0.002744405996054411,
+        "bias_scale": 4.595234881357647e-05,
+        "output_scale": 0.037638416440468135,
+        "real_multiplier": 0.0012208895367917059,
+        "integer_multiplier": 1342382242,
+        "right_shift": 40
+    },
+    "conv2": {
+        "input_scale": 0.037638416440468135,
+        "weight_scale": 0.005561488680541515,
+        "bias_scale": 0.0002093256269871712,
+        "output_scale": 0.0895035435834269,
+        "real_multiplier": 0.002338741223045066,
+        "integer_multiplier": 1285736585,
+        "right_shift": 39
+    },
+    "fc1": {
+        "input_scale": 0.0895035435834269,
+        "weight_scale": 0.0037414482794702053,
+        "bias_scale": 0.00033487287914669907,
+        "output_scale": 0.22972281148114543,
+        "real_multiplier": 0.001457725843539852,
+        "integer_multiplier": 1602786515,
+        "right_shift": 40
+    }
+}

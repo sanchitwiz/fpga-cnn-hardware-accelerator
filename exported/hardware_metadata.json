@@ -1,0 +1,118 @@
+{
+    "model": "CIFAR10_CNN",
+    "dataset": "CIFAR-10",
+    "weight_precision": "INT8",
+    "activation_precision": "INT8",
+    "bias_precision": "INT32",
+    "input_scale": 0.016744005398487482,
+    "activation_scales": {
+        "pool1": 0.037638416440468135,
+        "pool2": 0.0895035435834269,
+        "fc1_relu": 0.22972281148114543
+    },
+    "layers": {
+        "conv1": {
+            "weight_shape": [
+                32,
+                3,
+                3,
+                3
+            ],
+            "bias_shape": [
+                32
+            ],
+            "weight_count": 864,
+            "bias_count": 32,
+            "weight_dtype": "INT8",
+            "bias_dtype": "INT32",
+            "weight_scale": 0.002744405996054411,
+            "input_scale": 0.016744005398487482,
+            "bias_scale": 4.595234881357647e-05,
+            "weight_layout": "OIHW",
+            "flattening_order": "C_ORDER",
+            "requantization": {
+                "input_scale": 0.016744005398487482,
+                "weight_scale": 0.002744405996054411,
+                "bias_scale": 4.595234881357647e-05,
+                "output_scale": 0.037638416440468135,
+                "real_multiplier": 0.0012208895367917059,
+                "integer_multiplier": 1342382242,
+                "right_shift": 40
+            }
+        },
+        "conv2": {
+            "weight_shape": [
+                64,
+                32,
+                3,
+                3
+            ],
+            "bias_shape": [
+                64
+            ],
+            "weight_count": 18432,
+            "bias_count": 64,
+            "weight_dtype": "INT8",
+            "bias_dtype": "INT32",
+            "weight_scale": 0.005561488680541515,
+            "input_scale": 0.037638416440468135,
+            "bias_scale": 0.0002093256269871712,
+            "weight_layout": "OIHW",
+            "flattening_order": "C_ORDER",
+            "requantization": {
+                "input_scale": 0.037638416440468135,
+                "weight_scale": 0.005561488680541515,
+                "bias_scale": 0.0002093256269871712,
+                "output_scale": 0.0895035435834269,
+                "real_multiplier": 0.002338741223045066,
+                "integer_multiplier": 1285736585,
+                "right_shift": 39
+            }
+        },
+        "fc1": {
+            "weight_shape": [
+                128,
+                2304
+            ],
+            "bias_shape": [
+                128
+            ],
+            "weight_count": 294912,
+            "bias_count": 128,
+            "weight_dtype": "INT8",
+            "bias_dtype": "INT32",
+            "weight_scale": 0.0037414482794702053,
+            "input_scale": 0.0895035435834269,
+            "bias_scale": 0.00033487287914669907,
+            "weight_layout": "OI",
+            "flattening_order": "C_ORDER",
+            "requantization": {
+                "input_scale": 0.0895035435834269,
+                "weight_scale": 0.0037414482794702053,
+                "bias_scale": 0.00033487287914669907,
+                "output_scale": 0.22972281148114543,
+                "real_multiplier": 0.001457725843539852,
+                "integer_multiplier": 1602786515,
+                "right_shift": 40
+            }
+        },
+        "fc2": {
+            "weight_shape": [
+                10,
+                128
+            ],
+            "bias_shape": [
+                10
+            ],
+            "weight_count": 1280,
+            "bias_count": 10,
+            "weight_dtype": "INT8",
+            "bias_dtype": "INT32",
+            "weight_scale": 0.003157606115564704,
+            "input_scale": 0.22972281148114543,
+            "bias_scale": 0.0007253741544175824,
+            "weight_layout": "OI",
+            "flattening_order": "C_ORDER"
+        }
+    }
+}
